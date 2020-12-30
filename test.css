@@ -3,6 +3,8 @@
     margin: 10px;
 
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .flex-items {
@@ -15,6 +17,5 @@
   line-height: 50px;
   margin: 10px;
 
-  flex-wrap: wrap;
-  flex-direction: column;
+  
 }
