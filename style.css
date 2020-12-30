@@ -1,0 +1,347 @@
+
+/*Master Styles*/
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+/*Nav Styles*/
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side1 {
+    display: flex;
+}
+
+.right-side1 {
+    color:rgb(36, 155, 202);
+}
+
+.nav-wrapper > .left-side1 > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper1 {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper1 a {
+    color: #2797b3;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper1:hover {
+    border-bottom: 1px solid rgb(0, 183, 255);
+}
+
+.nav-link-wrapper1 a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/*Nav bar end*/
+
+
+/*NOTE*/
+/*Main page (1)*/
+/*NOTE* (1)*/
+
+
+body {
+    background-color: #fef6e4;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+    background-repeat: repeat-y;
+    margin: 1em;
+    
+} 
+
+    
+.header {
+    color: #27d8cfdc;
+    font-family: 'Ubuntu';
+    font-size:42px; 
+}
+
+.sub-header {
+    color: #21e4e4;
+    font-size: 25px;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+.para1 {
+    color: #ced6ffbd;
+    font-family: 'Jura', sans-serif;
+    font-size: 1.15em;
+    /*border: 5px solid red;*/
+    /* margin: 10px 500px 10px 500px;*/
+    text-align: center;
+}
+
+.image-svg {
+    width: 23em;
+    float: right;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+
+
+table{
+    color: unset;
+}
+
+.table-header {
+    font-family: 'Bitter', 'Montserrat', sans-serif;
+    font-style:unset;
+    background-color:#DD1155 ;
+    text-align: center;
+}
+
+
+.table-contant {
+    font-family:'Juna', sans-serif;
+    background-color:#00CC99 ;
+    text-align: left;
+}
+
+.form-text {
+    padding-left: 0.25em;
+}
+
+.hr-design {
+    background: linear-gradient(to bottom ,#cd6e8a,#172c66,#DD1155,#ff4646);
+}
+
+#form-color-text {
+    text-transform: uppercase;
+}
+
+#form-car {
+    text-decoration:none;
+    text-transform: uppercase;
+}
+
+#external-link-1 {
+    text-decoration: none;
+}
+
+div > label {
+    color: #045762;
+}
+
+/* NOTE*/
+/* 2nd About me CSS*/
+/* NOTE*/
+
+
+/*Nav Bar Start*/
+.left-side2 {
+    display: flex;
+}
+
+.right-side2 {
+    color:rgb(211, 209, 109);
+}
+
+.nav-wrapper > .left-side2 > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper2 {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper2 a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper2:hover {
+    border-bottom: 1px solid yellow;
+}
+
+.nav-link-wrapper2 a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/*NavBar End*/
+
+#about-body {
+    background: url(/BGI/fancy-pants.jpg);
+    margin: 1em;
+}
+
+li {
+    color: rgba(226, 230, 21, 1);
+    /* color: rgba(red, green, blue, alpha); */
+}
+
+.link-about {
+    color: rgba(226, 230, 21, 1);
+}
+
+.link-about:hover {
+    text-align: start;
+    color: yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.about-subtitle {
+    color: rgba(59, 237, 228,1);
+    /* color: rgba(red, green, blue, alpha); */
+    font-size: 1.75em;
+    font-family: 'Work Sans',sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.para2 {
+    color: rgba(235, 235, 235,1);
+    /* color: rgba(red, green, blue, alpha); */
+    font-size: 1.1em;
+    font-family: 'Spinnaker',sans-serif;
+    font-weight: 200;
+    text-decoration:justify;
+
+}
+
+#title {
+    color: rgba(219, 216, 44,0.9);
+    font-size: 2.1em;
+    font-family: 'Raleway','Play', 'Merriweather', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#ithink {
+    color: rgb(0, 0, 0);
+}
+
+/* NOTE*/
+/*Contact me page CSS (Page 3)*/
+/* NOTE*/
+
+.left-side3 {
+    display: flex;
+}
+
+.right-side3 {
+    color:rgb(202, 51, 51);
+}
+
+.nav-wrapper > .left-side3 > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper3 {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper3 a {
+    color: #834d4d;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper3:hover {
+    border-bottom: 1px solid rgb(214, 30, 76);
+}
+
+.nav-link-wrapper3 a:hover {
+    color: black;
+}
+
+
+#contact-body {
+    
+    background-position: unset;
+    background-image: url(/BGI/cool-background\ \(2\).svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 6.5em;
+    margin: 0px;
+    padding: 1em;    
+}
+
+#contact-list-color {
+    color:black;
+}
+    
+#titles {
+    font-family: 'Poppins','Lato', sans-serif;
+    text-align: start;
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: rgb(211, 27, 73);
+}
+
+#form-info {
+    font-family: 'Lato', monospace;
+    font-weight: 100;
+}
+
+#form-car {
+    font-size: 1.05em;
+    font-family: 'Open Sans','Roboto','Jura', sans-serif;
+    text-decoration: underline;
+    padding-left: 0.25em;
+}
+
+.link-contact:hover {
+    text-align: start;
+    color: rgb(46, 13, 231);
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.subtitles {
+    color: rgba(173, 49, 65, 0.753);
+    font-size: 1.75em;
+    font-family: 'IBM Plex Sans',sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.red-text-small {
+    color:red;
+    font-family:  'Open Sans','Roboto','Jura',sans-serif;
+    padding-left: 0.25em;
+
+}
+
+.blue-text-small {
+    color:blue;
+    font-family: 'Open Sans','Roboto','Jura',sans-serif;
+    padding-left: 0.25em;
+    
+}
+
+.green-text-small {
+    color: green;
+    font-family: 'Open Sans','Roboto','Jura',sans-serif ;
+    padding-left: 0.25em;
+}
